@@ -27,7 +27,9 @@
   /*è³‡æ ¼æŒã¡åˆ¶å¾¡*/
   span[class^="s_"]{display:none;}
   .s_common{display:inline!important}
-  
+  .ten{
+    color: #CC0000;
+  }
   svg{width:68px;height:80px;fill:var(--main_color);}
   
   /*ä¸€èˆ¬*/
@@ -90,10 +92,18 @@
   .header_sub2{font-size: 200%;font-weight:bold;font-family:serif}
   h1{font-size:var(--h1_pc_fontsize);letter-spacing:-0.4rem;line-height:1.2;font-weight:700}
   .english{font-size:130%;font-family:"Roboto Slab",Garamond,"Times New Roman",æ¸¸æ˜Žæœ,"Yu Mincho","æ¸¸æ˜Žæœä½“", "YuMincho","ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ Pro W3","Hiragino Mincho Pro",HiraMinProN-W3, HGSæ˜ŽæœE,"ï¼­ï¼³ ï¼°æ˜Žæœ","MS PMincho",serif;visibility:visible;margin:20px auto;}
-  #header a.button_area{display:inline-block;margin:0 auto;padding: 10px 30px;text-decoration: none;line-height:1.2;
+  #header a.button_area{display:inline-block;margin:0 auto;padding: 30px 40px;text-decoration: none;line-height:1.2;
     font-size:100%;color: #FFF;background: rgba(0,0,0,0.5);border: solid 1px #FFF;}
   #header a span.big{color:#fff;}
-  #header a.button_area:hover{background:rgba(0,0,0,0.3)}
+  #header a.button_area:hover{background:rgb(238, 105, 205,0.9)}
+  .button_area{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+    padding: 30px;
+  }
   
   /*ãƒ¡ãƒ‡ã‚£ã‚¢æŽ²è¼‰*/
   #media_box{text-align: center;padding:30px 10px;}
@@ -126,7 +136,11 @@
   .jirei_area .card dt{padding: 16px 0 10px;font-size:120%;font-weight: 700;text-align: center;line-height: 1.2;}
   .jirei_area .card dd{padding: 0 15px;letter-spacing: -0.05rem;font-size:100%;text-align: left;}
   .jirei_area td{padding-left:10px}
-  
+  .button4{
+    width: 30%;
+    padding: 10px;
+    
+  }
   
   /*ãƒ†ã‚­ã‚¹ãƒˆè£…é£¾*/
   .center{text-align:center;}
