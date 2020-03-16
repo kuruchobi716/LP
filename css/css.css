@@ -106,7 +106,7 @@
   }
   
   /*ãƒ¡ãƒ‡ã‚£ã‚¢æŽ²è¼‰*/
-  #media_box{text-align: center;padding:30px 10px;}
+  #media_box{text-align: center;padding:30px 10px;height: 600px;}
   h3{font-weight: 400;font-size:150%;margin-bottom:0}
   #media_box img{margin:20px 0;}
   .tv_area{display: flex;justify-content:center;align-items: center;}
